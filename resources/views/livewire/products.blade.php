@@ -38,6 +38,7 @@
                     </thead>
                     <tbody>
                     @foreach ($orderProducts as $index => $orderProduct)
+                    
                         <tr>
                             <td>
                                 <select name="orderProducts[{{$index}}][product_id]"
